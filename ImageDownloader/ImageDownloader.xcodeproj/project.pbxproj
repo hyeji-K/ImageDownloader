@@ -13,6 +13,7 @@
 		1035CD6B29B09CEE008DDD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1035CD6929B09CEE008DDD01 /* Main.storyboard */; };
 		1035CD6D29B09CEF008DDD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1035CD6C29B09CEF008DDD01 /* Assets.xcassets */; };
 		1035CD7029B09CEF008DDD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1035CD6E29B09CEF008DDD01 /* LaunchScreen.storyboard */; };
+		10DC15D629B0A3E400706524 /* ImageLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC15D529B0A3E400706524 /* ImageLoadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1035CD6C29B09CEF008DDD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1035CD6F29B09CEF008DDD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1035CD7129B09CEF008DDD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DC15D529B0A3E400706524 /* ImageLoadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1035CD6329B09CEE008DDD01 /* AppDelegate.swift */,
 				1035CD6529B09CEE008DDD01 /* SceneDelegate.swift */,
 				1035CD6729B09CEE008DDD01 /* ViewController.swift */,
+				10DC15D529B0A3E400706524 /* ImageLoadManager.swift */,
 				1035CD6929B09CEE008DDD01 /* Main.storyboard */,
 				1035CD6C29B09CEF008DDD01 /* Assets.xcassets */,
 				1035CD6E29B09CEF008DDD01 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DC15D629B0A3E400706524 /* ImageLoadManager.swift in Sources */,
 				1035CD6829B09CEE008DDD01 /* ViewController.swift in Sources */,
 				1035CD6429B09CEE008DDD01 /* AppDelegate.swift in Sources */,
 				1035CD6629B09CEE008DDD01 /* SceneDelegate.swift in Sources */,
